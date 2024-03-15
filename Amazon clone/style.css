@@ -38,18 +38,18 @@
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
-    display: flex;
+    
 }
 
 .add-second{
     
     font-size: 1rem;
-    margin-left: 15px;
+    margin-left: 3px;
 }
 
 .add-icon{
     display: flex;
-    text-align: center ;
+    align-items: center ;
 }
 
 /** box 3 **/
@@ -230,15 +230,31 @@ ul a{
     height: 70px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.logo{
+.logo1{
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
-    width: 100%;
+    width: 100px;
+    
 }
 
+
 .foot-panel4{
-    background-color: ;
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+    
 }
